@@ -9,7 +9,7 @@
     <link href="/static/admin/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/static/admin/css/animate.css" rel="stylesheet">
     <link href="/static/admin/css/style.css?v=4.1.0" rel="stylesheet">
-    <title>Document</title>
+    <title>menuCreate</title>
 </head>
 <body>  
 <div class="table-responsive">
@@ -44,6 +44,7 @@
                                 </tbody>
                                 
                             </table>
+                            <td><a class="btn btn-danger btn-rounded" href="{{url('wx_menu/create')}}">菜单添加</a>
                         </div>
 
 </body>
