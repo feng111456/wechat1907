@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 /**微信菜单管理*/
 Route::prefix('wx_menu')->group(function () {
-    Route::any('/index','admin\wx_menu@index');
-    Route::get('/create','admin\wx_menu@create');
-    Route::any('/store','admin\wx_menu@store');
+    Route::any('/index','admin\Wx_menu@index');
+    Route::get('/create','admin\Wx_menu@create');
+    Route::any('/store','admin\Wx_menu@store');
 });
