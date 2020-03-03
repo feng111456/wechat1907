@@ -37,14 +37,14 @@
                                         <td>{{$v->m_type}}</td>
                                         <td>{{$v->m_key}}</td>
                                         <td>{{$v->m_url}}</td>
-                                        <td><a class="btn btn-danger btn-rounded" href="#">删除</a>
-                                        <a class="btn btn-info btn-rounded" href="#">修改</a></td>
+                                        <td><a class="btn btn-danger btn-rounded" href="{{url('wx_menu/destroy'.$v->id)}}">删除</a>
+                                        <a class="btn btn-info btn-rounded" href="{{url('wx_menu/edit'.$v->id)}}">修改</a></td>
                                     </tr>
                                     @endforeach
                                 </tbody>
                                 
                             </table>
-                            <td><a class="btn btn-danger btn-rounded" href="{{url('wx_menu/create')}}">菜单添加</a>
+                            <td><a class="btn btn-danger btn-rounded" href="{{url('wx_menu/create')}}">菜单添加</a></td>
                         </div>
 
 </body>

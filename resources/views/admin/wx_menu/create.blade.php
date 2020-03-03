@@ -67,6 +67,7 @@
                 </div>
                     <button type="submit" class="btn btn-w-m btn-success">菜单添加</button>
             </div>
+            <td><a class="btn btn-danger btn-rounded" href="{{url('wx_menu/index')}}">菜单展示</a></td>
         </form>
 </body>
 </html>
